@@ -1,0 +1,21 @@
+[debug] [2022-09-14T08:06:21.898Z] ----------------------------------------------------------------------
+[debug] [2022-09-14T08:06:21.909Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DRAGON\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-14T08:06:21.911Z] CLI Version:   11.9.0
+[debug] [2022-09-14T08:06:21.912Z] Platform:      win32
+[debug] [2022-09-14T08:06:21.912Z] Node Version:  v16.15.0
+[debug] [2022-09-14T08:06:21.916Z] Time:          Wed Sep 14 2022 04:06:21 GMT-0400 (hora de Bolivia)
+[debug] [2022-09-14T08:06:21.917Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-14T08:06:21.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-14T08:06:21.950Z] > authorizing via signed-in user (yoselingomm@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\DRAGON\Documents\EMI\PROYECTO-PLANTAS\frontend
+

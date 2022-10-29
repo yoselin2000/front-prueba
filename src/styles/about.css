@@ -1,0 +1,64 @@
+.grid-container {
+  display: grid;
+  width: 100%;
+  min-height: 15rem;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.grid-card {
+  background: aliceblue;
+  overflow: hidden;
+  height: 29rem;
+  width: 100%;
+  position: relative;
+  border: 1px solid rgb(20, 20, 20);
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-img {
+    display: flex;
+    width: 100%;
+    height: 17rem;
+    object-fit: cover;
+
+}
+
+.card-name {
+    font-size: 1.5rem;
+}
+
+.card-name-scientific {
+    font-size: 1rem;
+}
+
+.card-name-scien {
+  font-size: 0.8rem;
+}
+
+.card-button {
+    background-color: lightpink;
+  position: absolute;
+  bottom: 1rem;
+    border: 1px solid darkgrey;
+}
+
+.planta-img {
+  display: flex;
+  width: 900px;
+  height: 600px;
+  object-fit: cover;
+  border: 3px solid rgb(20, 20, 20);
+}
+
+span {
+  font-size: 1.4rem;
+  color: rgb(20, 20, 20);
+}
+
+.planta-title {
+  color: brown;
+}

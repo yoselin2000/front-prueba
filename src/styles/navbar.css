@@ -1,0 +1,139 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Titilliun web', sans-serif;
+}
+
+:root{
+  --mainColor: #0e390b;
+  --mainColorLight: #257834;
+  --secondaryColor: #c5d87f;
+  --textColor: #ffffff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 140px;
+  padding: 0 2rem;
+  background-color: var(--mainColor);
+  color: var(--textColor);
+  /* z-index: 200; */
+  /* grid-area: header; */
+}
+
+nav a{
+  margin: 0 2rem;
+  color: var(--textColor);
+  text-decoration: none;
+
+
+  /* flex: 100%;
+
+  align-items: center;
+  justify-content: flex-end; */
+}
+
+nav s:hover{
+  color: var(--secondaryColor);
+
+}
+
+header .nav-btn{
+  padding: 5px;
+  cursor:pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+
+}
+/* .derecha{
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+} */
+
+/* .izquierda{
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  max-height: 80px;
+} */
+
+@media only screen and (max-width: 1024px){
+  header .nav-btn{
+    visibility: visible;
+    opacity: 1;
+  }
+  header nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 100;
+  }
+  header .responsive_nav{
+    transform: none;
+    /* flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+  }
+
+  nav .nav-close-btn{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+  nav a{
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+/* body{
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  background-color: blue;
+  width: 100%;
+  height: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  
+}
+
+.derecha{
+  flex: 50%;
+}
+
+.izquierda{
+  flex: 50%;
+}
+.derecha .links{
+  max-height: 80px;
+} */
